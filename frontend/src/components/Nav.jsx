@@ -1,5 +1,6 @@
 import "../styles/Nav.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer.jsx";
 
 export default function Nav({ open }) {
   if (!open) return null;
@@ -25,6 +26,7 @@ export default function Nav({ open }) {
           <Link to="/">How to Buy</Link>
         </li>
       </ul>
+      <Footer />
     </section>
   );
 }

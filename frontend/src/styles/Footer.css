@@ -1,0 +1,16 @@
+.footersection {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containerfooter{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.containerfooter a{
+color: var(--second-bg);
+font-size: 20px;
+}
