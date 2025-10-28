@@ -22,3 +22,6 @@
 .navitems li a {
   color: var(--text-color);
 }
+.navitems li:hover{
+  font-size: 20px;
+}

@@ -1,0 +1,80 @@
+.coin-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d1117, #161b22);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.coin-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.coin-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+.coin-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.coin-symbol {
+  color: #00d8ff;
+}
+
+.contract-box {
+  margin: 25px 0;
+}
+
+.contract-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contract-address {
+  background: #21262d;
+  padding: 12px;
+  border-radius: 12px;
+  align-items: center;
+  font-family: monospace;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.addressspan {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.tokenomics-btn {
+  margin-top: 25px;
+  background: #00d8ff;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.tokenomics-btn strong {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.tokenomics-btn:hover {
+  background: #00a2cc;
+}

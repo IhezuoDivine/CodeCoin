@@ -5,6 +5,8 @@ import Images from "../Images";
 import CopyButton from "../components/CopyButton.jsx";
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer.jsx";
+import Tokenomics from "../components/Tokenomics.jsx";
+import Howtobuy from "../components/Howtobuy.jsx";
 
 export default function Home() {
   const address = "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063...";
@@ -33,7 +35,9 @@ export default function Home() {
         <Header />
         <Nav />
         <h1 className="title">CodeCoin</h1>
-        <p className="subtitle">CodeCoin where memes compile and devs degen.</p>
+        <p className="subtitle">
+          CodeCoin Built by code. Fueled by memes. Owned by the people.
+        </p>
         <div className="homeimgecontainer">
           <img className="homeimg" src={Images["no-bg-pfp"]} alt="img" />
           <div className="homesociallinkcontain">
@@ -86,6 +90,8 @@ export default function Home() {
           )}
         </div>
       </section>
+      <Tokenomics />
+      <Howtobuy />
       <Footer />
     </main>
   );

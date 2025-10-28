@@ -1,0 +1,75 @@
+.how-to-buy {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 223, 223);
+  color: var(--text-color);
+  padding: 20px;
+  font-family: sans-serif;
+}
+.howtobuytitle {
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.addressspan {
+  color: var(--main-color);
+  font-size: 18px;
+}
+.howtobuylist,
+.howtobuypdiv {
+  list-style: none;
+  padding-left: 30px;
+  position: relative;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.howtobuylist::before,
+.howtobuypdiv::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--main-color);
+}
+.howtobuylist li,
+.howtobuyp {
+  position: relative;
+  padding: 15px 10px 15px 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.howtobuylist li::before,
+.howtobuyp::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  background: var(--main-color);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.buyonswap {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buyonswap a{
+    color: var(--main-color);
+    background-color: var(--second-bg);
+    padding: 10px;
+    border-radius: 50px;
+}
+.basechain{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

@@ -16,7 +16,7 @@ header {
   align-items: center;
   gap: 20px;
 }
-h1 {
+.header {
   color: black;
   font-family: cursive;
   color: var(--text-color);
@@ -29,6 +29,7 @@ h1 {
 .menu i {
   font-size: 24px;
   color: var(--second-bg);
+  background-color: var(--bg-color);
 }
 .menu i:hover {
   font-size: 25px;

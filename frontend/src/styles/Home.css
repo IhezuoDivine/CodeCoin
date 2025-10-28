@@ -16,6 +16,7 @@
 .subtitle {
   align-items: center;
   text-align: center;
+  font-weight: bold;
 }
 .homeimgecontainer {
   display: flex;
@@ -103,6 +104,11 @@
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+.coincard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(255,255,255,0.1);
+}
+
 .search {
   padding: 10px;
   background-color: rgb(199, 192, 192);

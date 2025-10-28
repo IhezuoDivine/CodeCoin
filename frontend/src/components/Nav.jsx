@@ -11,10 +11,13 @@ export default function Nav({ open }) {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/Aboutme">About</Link>
         </li>
         <li>
-          <Link to="/">FAQ</Link>
+          <Link to="/Tokenomics">Tokenomics</Link>
+        </li>
+        <li>
+          <Link to="/FAQ">FAQ</Link>
         </li>
         <li>
           <Link to="/">Community</Link>
@@ -23,7 +26,7 @@ export default function Nav({ open }) {
           <Link to="/">Partners</Link>
         </li>
         <li>
-          <Link to="/">How to Buy</Link>
+          <Link to="/Howtobuy">How to Buy</Link>
         </li>
       </ul>
       <Footer />

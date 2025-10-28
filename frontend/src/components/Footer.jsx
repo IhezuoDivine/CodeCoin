@@ -8,7 +8,7 @@ export default function Footer() {
     >
       <div className="containerfooter">
         <a
-          href="https://x.com/dev_chikezie?s=21"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -16,7 +16,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://t.me/Chi_kezie"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -24,7 +24,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/ihezuo-divine-4517892b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
