@@ -20,6 +20,9 @@ export default function Nav({ open }) {
           <Link to="/FAQ">FAQ</Link>
         </li>
         <li>
+          <Link to="/BlogLists">Blog</Link>
+        </li>
+        <li>
           <Link to="/">Community</Link>
         </li>
         <li>

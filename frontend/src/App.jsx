@@ -4,6 +4,9 @@ import Aboutme from "./pages/Aboutme.jsx";
 import Tokenomics from "./components/Tokenomics.jsx";
 import Howtobuy from "./components/Howtobuy.jsx";
 import FAQ from "./components/FAQ.jsx";
+import BlogDetail from "./pages/BlogDetail.jsx";
+import BlogLists from "./pages/BlogLists.jsx";
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         <Route path="/Tokenomics" element={<Tokenomics />} />
         <Route path="/Howtobuy" element={<Howtobuy />} />
         <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
+        <Route path="/BlogLists/" element={<BlogLists />} />
       </Routes>
     </HashRouter>
   );

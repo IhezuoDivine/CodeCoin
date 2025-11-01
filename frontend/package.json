@@ -11,6 +11,7 @@
     "both": "concurrently \"npm run dev\" \"cd .. && .venv\\Scripts\\python.exe manage.py runserver\""
   },
   "dependencies": {
+    "axios": "^1.13.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4"
